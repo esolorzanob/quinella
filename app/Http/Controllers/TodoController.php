@@ -1,10 +1,10 @@
-<?php namespace Todo\Http\Controllers;
+<?php namespace Quinella\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Todo\Http\Requests;
-use Todo\Todo;
+use Quinella\Http\Requests;
+use Quinella\Quinella;
 
-class TodoController extends Controller
+class QuinellaController extends Controller
 {
 
     private $request;
@@ -22,7 +22,7 @@ class TodoController extends Controller
      */
     public function index()
     {
-        return Todo::all();
+        return Quinella::all();
     }
 
     /**
@@ -43,11 +43,11 @@ class TodoController extends Controller
     public function store()
     {
         $input = $this->request->all();
-        $todo = new Todo($input);
-        if (!$todo->save()) {
+        $quinella = new Quinella($input);
+        if (!$quinella->save()) {
             abort(500, "Saving failed.");
         }
-        return $todo;
+        return $quinella;
     }
 
     /**
@@ -58,7 +58,7 @@ class TodoController extends Controller
      */
     public function show($id)
     {
-        return Todo::find($id);
+        return Quinella::find($id);
     }
 
     /**
@@ -80,12 +80,12 @@ class TodoController extends Controller
      */
     public function update($id)
     {
-        $todo = Todo::find($id);
-        $todo->body = $this->request->input('body');
-        if (!$todo->save()) {
+        $quinella = Quinella::find($id);
+        $quinella->body = $this->request->input('body');
+        if (!$quinella->save()) {
             abort(500, "Saving failed");
         }
-        return $todo;
+        return $quinella;
     }
 
     /**
@@ -96,7 +96,7 @@ class TodoController extends Controller
      */
     public function destroy($id)
     {
-        return Todo::destroy($id);
+        return Quinella::destroy($id);
     }
 
 }

@@ -1,4 +1,4 @@
-<?php namespace Todo\Commands;
+<?php namespace Quinella\Commands;
 
 abstract class Command {
 

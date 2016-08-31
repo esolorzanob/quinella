@@ -1,4 +1,4 @@
-<?php namespace Todo\Http\Requests;
+<?php namespace Quinella\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

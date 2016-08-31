@@ -1,4 +1,4 @@
-<?php namespace Todo\Http\Controllers;
+<?php namespace Quinella\Http\Controllers;
 
 class HomeController extends Controller {
 

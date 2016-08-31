@@ -1,4 +1,4 @@
-<?php namespace Todo\Http;
+<?php namespace Quinella\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -15,7 +15,7 @@ class Kernel extends HttpKernel {
 		'Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse',
 		'Illuminate\Session\Middleware\StartSession',
 		'Illuminate\View\Middleware\ShareErrorsFromSession',
-		// 'Todo\Http\Middleware\VerifyCsrfToken',
+		// 'Quinella\Http\Middleware\VerifyCsrfToken',
 	];
 
 	/**
@@ -24,9 +24,9 @@ class Kernel extends HttpKernel {
 	 * @var array
 	 */
 	protected $routeMiddleware = [
-		'auth' => 'Todo\Http\Middleware\Authenticate',
+		'auth' => 'Quinella\Http\Middleware\Authenticate',
 		'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
-		'guest' => 'Todo\Http\Middleware\RedirectIfAuthenticated',
+		'guest' => 'Quinella\Http\Middleware\RedirectIfAuthenticated',
 	];
 
 }

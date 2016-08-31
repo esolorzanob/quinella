@@ -140,11 +140,11 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'Todo\Providers\AppServiceProvider',
-		'Todo\Providers\BusServiceProvider',
-		'Todo\Providers\ConfigServiceProvider',
-		'Todo\Providers\EventServiceProvider',
-		'Todo\Providers\RouteServiceProvider',
+		'Quinella\Providers\AppServiceProvider',
+		'Quinella\Providers\BusServiceProvider',
+		'Quinella\Providers\ConfigServiceProvider',
+		'Quinella\Providers\EventServiceProvider',
+		'Quinella\Providers\RouteServiceProvider',
 
 		/*
 		 * JSON Web Token (Authentication)

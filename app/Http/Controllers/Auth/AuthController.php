@@ -1,10 +1,10 @@
 <?php
 
-namespace Todo\Http\Controllers\Auth;
+namespace Quinella\Http\Controllers\Auth;
 
-use Todo\User;
+use Quinella\User;
 use Validator;
-use Todo\Http\Controllers\Controller;
+use Quinella\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
 class AuthController extends Controller

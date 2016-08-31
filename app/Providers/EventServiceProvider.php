@@ -1,9 +1,9 @@
-<?php namespace Todo\Providers;
+<?php namespace Quinella\Providers;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Hash;
-use Todo\User;
+use Quinella\User;
 
 class EventServiceProvider extends ServiceProvider
 {

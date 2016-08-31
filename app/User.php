@@ -1,4 +1,4 @@
-<?php namespace Todo;
+<?php namespace Quinella;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Auth\Passwords\CanResetPassword;

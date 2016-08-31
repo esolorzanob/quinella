@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: Todo
-        psr4_prefix: Todo
+        namespace: Quinella
+        psr4_prefix: Quinella
         src_path: app

@@ -1,10 +1,10 @@
-<?php namespace Todo\Http\Controllers;
+<?php namespace Quinella\Http\Controllers;
 
 use Illuminate\Contracts\Routing\ResponseFactory;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Todo\Http\Requests;
-use Todo\User;
+use Quinella\Http\Requests;
+use Quinella\User;
 use Tymon\JWTAuth\JWTAuth;
 
 class UserController extends Controller

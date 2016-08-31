@@ -1,4 +1,4 @@
-<?php namespace Todo\Events;
+<?php namespace Quinella\Events;
 
 abstract class Event {
 

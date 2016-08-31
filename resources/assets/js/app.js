@@ -1,4 +1,4 @@
-angular.module('todoApp', [
+angular.module('quinellaApp', [
   'ngRoute',
   'ngResource',
   'ngStorage',
