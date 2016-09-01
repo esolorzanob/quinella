@@ -1,0 +1,9 @@
+CREATE TABLE `quinella`.`equipos` (
+  `id` INT NOT NULL AUTO_INCREMENT COMMENT '',
+  `id_api` VARCHAR(45) NULL COMMENT '',
+  `nombre` VARCHAR(150) NULL COMMENT '',
+  `area` VARCHAR(45) NULL COMMENT '',
+  `liga` VARCHAR(100) NULL COMMENT '',
+  `created_at` TIMESTAMP NULL COMMENT '',
+  `updated_at` TIMESTAMP NULL COMMENT '',
+  PRIMARY KEY (`idEquipo`)  COMMENT '');

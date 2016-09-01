@@ -1,0 +1,7 @@
+CREATE TABLE `quinella`.`userhastorneo` (
+  `id` INT NOT NULL AUTO_INCREMENT COMMENT '',
+  `idTorneo` VARCHAR(45) NULL COMMENT '',
+  `idUser` VARCHAR(45) NULL COMMENT '',
+  `created_at` TIMESTAMP NULL COMMENT '',
+  `updated_at` TIMESTAMP NULL COMMENT '',
+  PRIMARY KEY (`idUserHasTorneo`)  COMMENT '');

@@ -34,6 +34,11 @@ Route::get('/api/user/getByToken', 'UserController@getByToken');
 // Getting RESTful
 Route::resource('/api/quinella', 'QuinellaController');
 Route::resource('/api/user', 'UserController');
+Route::resource('/api/equipo', 'EquipoController');
+Route::resource('/api/torneo', 'TorneoController');
+Route::resource('/api/partido', 'PartidoController');
+Route::resource('/api/userHasTorneo', 'UserHasTorneoController');
+
 
 // Catch all undefined routes. Always gotta stay at the bottom since order of routes matters.
 Route::any('{undefinedRoute}', function ($undefinedRoute) {

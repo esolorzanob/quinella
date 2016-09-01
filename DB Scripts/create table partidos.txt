@@ -1,0 +1,12 @@
+CREATE TABLE `quinella`.`partidos` (
+  `id` INT NOT NULL AUTO_INCREMENT COMMENT '',
+  `id_api` VARCHAR(45) NULL COMMENT '',
+  `team_a` VARCHAR(45) NULL COMMENT '',
+  `team_b` VARCHAR(45) NULL COMMENT '',
+  `fecha` VARCHAR(100) NULL COMMENT '',
+  `torneo` VARCHAR(45) NULL COMMENT '',
+  `goles_a` VARCHAR(45) NULL COMMENT '',
+  `goles_b` VARCHAR(45) NULL COMMENT '',
+  `ganador` VARCHAR(45) NULL COMMENT '',
+  `estado` VARCHAR(45) NULL COMMENT '',
+  PRIMARY KEY (`idPartido`)  COMMENT '');

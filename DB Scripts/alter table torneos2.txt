@@ -1,0 +1,2 @@
+ALTER TABLE `quinella`.`torneos` 
+ADD COLUMN `status` VARCHAR(45) NULL COMMENT '' AFTER `updated_at`;

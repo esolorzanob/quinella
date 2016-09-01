@@ -1,0 +1,2 @@
+ALTER TABLE `quinella`.`torneos` 
+ADD COLUMN `imagen` VARCHAR(100) NULL COMMENT '' AFTER `nombre`;

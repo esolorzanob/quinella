@@ -7,7 +7,13 @@ angular.module('quinellaApp', [
   'MainController',
   'TodoController',
   'UserController',
+  'AdminController',
   'UserService',
   'TodoService',
+  'AdminService',
+  'EquipoService',
+  'TorneoService',
+  'PartidoService',
+  'UserHasTorneoService'
 ]);
 

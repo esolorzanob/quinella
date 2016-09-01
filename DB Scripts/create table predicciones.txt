@@ -1,0 +1,11 @@
+CREATE TABLE `quinella`.`predicciones` (
+  `id` INT NOT NULL AUTO_INCREMENT COMMENT '',
+  `idUser` VARCHAR(45) NULL COMMENT '',
+  `idPartido` VARCHAR(45) NULL COMMENT '',
+  `idTorneo` VARCHAR(45) NULL COMMENT '',
+  `goles_a` VARCHAR(45) NULL COMMENT '',
+  `goles_b` VARCHAR(45) NULL COMMENT '',
+  `puntos` VARCHAR(45) NULL COMMENT '',
+  `created_at` TIMESTAMP NULL COMMENT '',
+  `updated_at` TIMESTAMP NULL COMMENT '',
+  PRIMARY KEY (`idPredicciones`)  COMMENT '');

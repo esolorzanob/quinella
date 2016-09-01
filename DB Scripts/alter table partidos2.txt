@@ -1,0 +1,2 @@
+ALTER TABLE `quinella`.`partidos` 
+ADD COLUMN `match_day` VARCHAR(45) NULL COMMENT '' AFTER `fecha`;

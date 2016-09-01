@@ -1,0 +1,9 @@
+CREATE TABLE `quinella`.`torneos` (
+  `id` INT NOT NULL AUTO_INCREMENT COMMENT '',
+  `id_api` VARCHAR(45) NULL COMMENT '',
+  `nombre` VARCHAR(150) NULL COMMENT '',
+  `area` VARCHAR(45) NULL COMMENT '',
+  `anno` VARCHAR(45) NULL COMMENT '',
+  `created_at` TIMESTAMP NULL COMMENT '',
+  `updated_at` TIMESTAMP NULL COMMENT '',
+  PRIMARY KEY (`id_torneo`)  COMMENT '');
