@@ -14,6 +14,7 @@ angular.module('quinellaApp', [
   'EquipoService',
   'TorneoService',
   'PartidoService',
-  'UserHasTorneoService'
+  'UserHasTorneoService',
+  'PrediccionService'
 ]);
 

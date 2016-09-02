@@ -30,7 +30,7 @@ Route::get('/partials/{category}/{action}/{id}', function ($category, $action = 
 // Additional RESTful routes.
 Route::post('/api/user/login', 'UserController@login');
 Route::get('/api/user/getByToken', 'UserController@getByToken');
-
+Route::get('/api/prediccion/{userId}', 'getUserPredicciones@PrediccionController');
 // Getting RESTful
 Route::resource('/api/quinella', 'QuinellaController');
 Route::resource('/api/user', 'UserController');
@@ -38,7 +38,7 @@ Route::resource('/api/equipo', 'EquipoController');
 Route::resource('/api/torneo', 'TorneoController');
 Route::resource('/api/partido', 'PartidoController');
 Route::resource('/api/userHasTorneo', 'UserHasTorneoController');
-
+Route::resource('/api/prediccion', 'PrediccionController');
 
 // Catch all undefined routes. Always gotta stay at the bottom since order of routes matters.
 Route::any('{undefinedRoute}', function ($undefinedRoute) {

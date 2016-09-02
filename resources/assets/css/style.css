@@ -29,3 +29,16 @@ a {
     color: black;
     text-decoration: none;
 }
+
+.teamName {
+    font-weight: bold;
+}
+
+.prediccion {
+    width: 20px;
+    text-align: center;
+}
+
+.fecha {
+    font-style: italic;
+}

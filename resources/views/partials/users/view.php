@@ -7,7 +7,7 @@
        <div class="form-horizontal" ng-repeat="torneo in userTorneos">
            <div class="form-group">
                 <div class="col-md-3">
-                <a href="admin/editTorneo/{{torneo.id}}">
+                <a href="users/torneo/{{torneo.id_api}}">
                <img class="logoTorneo" src="{{torneo.imagen}}">
              </a>
                 </div>
